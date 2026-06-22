@@ -9,7 +9,7 @@ export default defineConfig({
 
   integrations: [
     vue({
-      // Points to Vue/Vuetify initialization file
+      // Points to the Vue/Quasar initialization file
       appEntrypoint: '/src/vue-setup.ts',
       // Enable JSX support (optional)
       jsx: true
@@ -20,12 +20,8 @@ export default defineConfig({
 
   vite: {
     resolve: {
-      // Prevents duplicate Vue instances
-      dedupe: ['vue'],
-    },
-    ssr: {
-      // Required for Vuetify SSR compatibility
-      noExternal: ['vuetify'],
-    },
+      // Prevents duplicate Vue instances across islands
+      dedupe: ['vue']
+    }
   }
 });

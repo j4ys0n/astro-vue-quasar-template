@@ -12,12 +12,13 @@ const { title } = Astro.props;
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content="Astro Vue Vuetify Template" />
+    <meta name="description" content="Astro + Vue + Quasar Template" />
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <title>{title}</title>
   </head>
-  <body>
+  <!-- `body--dark` activates Quasar's dark styles for the initial (pre-hydration) paint -->
+  <body class="body--dark">
     <!-- NavBar is interactive -->
     <NavBar client:load />
     <main>

@@ -1,0 +1,20 @@
+/*
+ * App-level styling.
+ *
+ * Quasar's brand colors are exposed as CSS custom properties, so the whole
+ * theme can be customized here without a Sass build step. These overrides are
+ * loaded after `quasar/dist/quasar.css`, so they win.
+ */
+:root {
+  --q-primary: #2563eb;
+  --q-secondary: #64748b;
+  --q-accent: #7c3aed;
+  --q-positive: #16a34a;
+  --q-negative: #dc2626;
+  --q-info: #0284c7;
+  --q-warning: #d97706;
+
+  /* Dark surface + page background (used when dark mode is active) */
+  --q-dark: #1e1e1e;
+  --q-dark-page: #121212;
+}
