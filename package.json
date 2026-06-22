@@ -11,11 +11,10 @@
   "dependencies": {
     "@astrojs/sitemap": "^3.7.0",
     "@astrojs/vue": "^5.1.4",
-    "@mdi/font": "^7.4.47",
+    "@quasar/extras": "^1.17.0",
     "astro": "^5.16.9",
-    "vite-plugin-vuetify": "^2.1.2",
-    "vue": "^3.5.26",
-    "vuetify": "^3.11.6"
+    "quasar": "^2.18.5",
+    "vue": "^3.5.26"
   },
   "devDependencies": {
     "@astrojs/check": "^0.9.6",
